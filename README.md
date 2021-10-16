@@ -1,6 +1,9 @@
+```
 # ubuntu_scroll_speed
-
+```
+```
 sudo apt install imwheel
+```
 
 ```
 #!/bin/bash
@@ -38,8 +41,12 @@ sed -i "s/\($TARGET_KEY *Button5, *\).*/\1$NEW_VALUE/" ~/.imwheelrc # find the s
 cat ~/.imwheelrc
 imwheel -b "4 5"
 ```
-                       
+
+```
 chmod +x mousewheel.sh
+```
+```
 ./mousewheel.sh
+```
                        
                        
