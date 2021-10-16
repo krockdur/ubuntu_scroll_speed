@@ -2,6 +2,7 @@
 
 sudo apt install imwheel
 
+```
 #!/bin/bash
 # Version 0.1 Tuesday, 07 May 2013
 # Comments and complaints http://www.nicknorton.net
@@ -36,7 +37,7 @@ sed -i "s/\($TARGET_KEY *Button4, *\).*/\1$NEW_VALUE/" ~/.imwheelrc # find the s
 sed -i "s/\($TARGET_KEY *Button5, *\).*/\1$NEW_VALUE/" ~/.imwheelrc # find the string Button5, and write new value.
 cat ~/.imwheelrc
 imwheel -b "4 5"
-                       
+```
                        
 chmod +x mousewheel.sh
 ./mousewheel.sh
