@@ -1,3 +1,13 @@
+Ce script permet de fixer le problème de vitesse de scrolling sous ubuntu - testé sous ubuntu 21.10
+
+A la fin du script,
+```
+imwheel -b "4 5"
+```
+permet d'activer la prise en charge des bouton avance et retour.
+
+
+
 ```
 # ubuntu_scroll_speed
 ```
